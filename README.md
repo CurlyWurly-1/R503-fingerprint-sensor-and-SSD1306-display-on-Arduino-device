@@ -14,7 +14,7 @@ Please note:
  - Arduinos Libraries - To get this sketch to complile in the Arduino IDE, you need to import the following libraries
    - "SSD1306Ascii" - Text display on small monochrome OLED Modules (by Bill Greiman)
    - "Adafruit Fingerprint Sensor library" (by Adafruit)
-- Connections - to get everything connected, use female to female Dupont wires
+- Connections - to get everything connected, it is probably easier to just solder wires between the devices, BUT, BEFORE YOU CUT THE WHITE 6 PIN CONNECTOR AWAY FROM THE FINGERPRINT SENSOR, make sure you mark which wire is "wire 1" of the 6 wires. I used a black marker pen to do this.   
   - The SSD1306 display is powered with the 5v line and 0V (ground)
   - The SSD1306 display communicates with the Arduino's I2C pins - A4(SDA) and A5(SCL). 
   - The finger print display is powered with the 3.3v line and 0V (ground)
